@@ -1,0 +1,51 @@
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #009879;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    animation: spin 2s linear infinite;
+  }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.table-list {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow-x: auto;
+  }
+.table-list thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.table-list tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table th, td {
+    padding: 5px 0px;
+}
+.table-list tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table-list tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.searchBox {
+  margin-top: 12px;
+  width: 97%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
