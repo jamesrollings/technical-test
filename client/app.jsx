@@ -1,4 +1,5 @@
 import React from 'react';
+import 'regenerator-runtime'
 import Table from './components/Table';
 
 const dataURL = `http://localhost:${Number(process.env.PORT) || 80}/api/personnel`;

@@ -31,11 +31,17 @@
   border-bottom: 1px solid #dddddd;
 }
 
+.table-list thead th:hover {
+  background-color: #ffffff;
+  color: #009879;
+  cursor: pointer
+}
+
 .styled-table th, td {
     padding: 5px 0px;
 }
 .table-list tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+  background-color: #ffffff;
 }
 
 .table-list tbody tr:last-of-type {
