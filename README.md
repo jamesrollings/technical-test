@@ -55,10 +55,10 @@ This route should return the personnel data located in the aforementioned `json`
 
 The above requirements regarding Client & Web Server are the minimum we expect. However, if you finish the test early, please consider implementing some of the features below. Alternatively, in the README.md of your project explain how you would achieve some or all of them.
 
-- Filtering/searching the personnel by name
-- Sorting the personnel by name
+- Filtering/searching the personnel by name - **Done**
+- Sorting the personnel by name - **onClick handler against the table header which passes the data into a sort function and stores the new table in state**
 - Tests
 - Error handling
-- State management
-- Deleting personnel (without mutating the original `json` file)
-- How would you do this differently if you have 10k personnel? 100k? 10m?
+- State management - **Done**
+- Deleting personnel (without mutating the original `json` file) - **Delete button against each row which passes the index into the same function as for filtering/searching** 
+- How would you do this differently if you have 10k personnel? 100k? 10m? - **Store the data in a database**
